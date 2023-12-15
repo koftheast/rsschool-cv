@@ -19,8 +19,8 @@ However I am eager to get new knowledge and build functional web sites for users
 * Figma
 
 ```
-let greeting = "Hello World";</p>
-console.log(greeting);</p>
+let greeting = "Hello World";
+console.log(greeting);
 
 ```
 
