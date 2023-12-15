@@ -18,19 +18,19 @@ body {
 
 /* navigation bar */
 
-header {
-    background-color: rgb(201, 201, 201);
-    height: 53px;
+.header {
+   display: flex;
+   background-color: rgb(201, 201, 201);
+   justify-content: flex-end;
+
 }
 
 .nav-list {
-    float: right;
+    display: flex;
 }
+
 .nav-item {
-    display: inline;
-    list-style: none;
     padding: 16px;
-    float: left;
 }
 
 .nav-link {
@@ -40,7 +40,7 @@ header {
 }
 
 li.nav-item {
-    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
 }
 
 .nav-link:hover {
@@ -148,14 +148,14 @@ section h2 {
 
 .hard-skills {
     display: inline-block;
-    width: 40%;
+    width: 50%;
     float: left;
     height: 236px;
 }
 
 .code-example {
     display: inline-block;
-    width: 60%;
+    width: 40%;
     height: 236px;
 }
 
