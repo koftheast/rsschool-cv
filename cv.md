@@ -19,10 +19,8 @@ However I am eager to get new knowledge and build functional web sites for users
 * Figma
 
 ```
-function getRandomCharacter() {
-    let randomChar = Math.floor(Math.random() * characters.length);
-    return characters[randomChar];
-}
+let greeting = "Hello World";</p>
+console.log(greeting);</p>
 
 ```
 
