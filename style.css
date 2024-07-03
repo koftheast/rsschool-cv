@@ -92,4 +92,58 @@
      color: var(--pink-color);
      padding-left: 4px;
    }
- 
+
+   .main-container_info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+  }
+
+  .main-container_info_education {
+    border-right: 2px solid var(--dark-grey-color);
+    padding: 24px;
+  }
+
+  .section-title {
+    padding-bottom: 8px;
+    margin-top: 24px;
+  }
+
+  .list li{
+    padding-bottom: 8px;
+  }
+
+  .list li:last-child{
+    padding-bottom: 0px;
+  }
+
+  .main-container_info_experience {
+    padding: 24px 34px 24px 24px;
+  }
+
+  .main-container_about-me-section p {
+    max-width: 620px;
+    padding-bottom: 8px;
+  }
+
+  .main-container_about-me-section p:last-child {
+    padding-bottom: 0px;
+  }
+
+  .code {
+    background-color: var(--light-pink-color);
+    border-radius: 8px;
+    max-width: 260px;
+  }
+
+  .code .code_stroke {
+    padding: 20px 20px 8px 20px;
+  }
+
+  .code .code_indent {
+    padding: 0 0 8px 48px;
+  }
+
+  .code .code_last-sign {
+    padding: 0 0 20px 20px;
+  }
