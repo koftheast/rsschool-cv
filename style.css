@@ -1,0 +1,164 @@
+:root {
+    --pink-color: rgb(205, 56, 130);
+    --dark-grey-color: #4f4f4f;
+    --light-pink-color: rgb(255, 219, 237);
+ }
+ 
+ html {
+     scroll-behavior: smooth; 
+     font-family: Montserrat, sans-serif;
+     color: var(--dark-grey-color);
+   }
+ 
+   body {
+     margin: 0;
+     padding: 0;
+   }
+ 
+   .container-centered {
+     max-width: 1024px;
+     background-color: #ffffff;
+     box-shadow: 2px 2px 10px var(--light-pink-color);
+     margin: 0 auto;
+   }
+ 
+   header {
+     display: flex;
+     justify-content: start;
+     border-bottom: 2px solid var(--dark-grey-color);
+     padding-top: 40px;
+   }
+ 
+   .avatar {
+     width: 240px;
+     height: 240px;
+     margin: 28px;
+     border-radius: 50%;
+     border: 18px solid #ffffff;
+     box-shadow: 1px 1px 10px var(--dark-grey-color);
+   }
+ 
+   .header_essential-info {
+     max-width: 620px;
+     margin: 40px;
+   }
+ 
+   h1 {
+     font-size: 40px;
+   }
+ 
+   h1,
+   h2 {
+     margin: 0;
+   }
+ 
+   h2 {
+     font-size: 24px;
+   } 
+ 
+   p {
+     margin: 0;
+   }
+ 
+   .occupation {
+     font-size: 24px;
+   }
+ 
+   .header_list {
+     padding: 40px 0;
+   }
+
+   .icons {
+    width: 24px;
+    height: 24px;
+    padding: 8px 12px 8px 0;
+   }
+ 
+   .header_list_contact,
+   .header_list_email,
+   .header_list_github {
+     display: flex;
+     align-items: center;
+   }
+ 
+   ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+   }
+ 
+   .github-link {
+     text-decoration: none;
+     color: var(--pink-color);
+     padding-left: 4px;
+   }
+
+   .main-container_info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+  }
+
+  .main-container_info_education {
+    border-right: 2px solid var(--dark-grey-color);
+    padding: 24px;
+  }
+
+  .section-title {
+    padding-bottom: 8px;
+    margin-top: 24px;
+  }
+
+  .list li{
+    padding-bottom: 8px;
+  }
+
+  .list li:last-child{
+    padding-bottom: 0px;
+  }
+
+  .main-container_info_experience {
+    padding: 24px 34px 24px 24px;
+  }
+
+  .main-container_about-me-section p {
+    max-width: 620px;
+    padding-bottom: 8px;
+  }
+
+  .main-container_about-me-section p:last-child {
+    padding-bottom: 0px;
+  }
+
+  .code {
+    background-color: var(--light-pink-color);
+    border-radius: 8px;
+    max-width: 260px;
+  }
+
+  .code .code_stroke {
+    padding: 20px 20px 8px 20px;
+  }
+
+  .code .code_indent {
+    padding: 0 0 8px 48px;
+  }
+
+  .code .code_last-sign {
+    padding: 0 0 20px 20px;
+  }
+
+  .footer {
+    padding-bottom: 40px;
+  }
+
+  .footer_nav_list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+  }
+
+  .footer-link {
+    text-decoration: none;
+    color: var(--pink-color);
+  }
