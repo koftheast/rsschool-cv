@@ -162,3 +162,13 @@
     text-decoration: none;
     color: var(--pink-color);
   }
+
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .footer-item {
+    display: flex;
+    align-items: center;
+  }
